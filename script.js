@@ -34,8 +34,9 @@ addTaskbtn.addEventListener('click',function (){
 // shows all the task present in the list
 // showtask
 function showTask(){
-    cntTasks();
+    
     let webtask = localStorage.getItem("localTask");
+    cntTasks();
     if(webtask == null){
         taskObj = [];
     }
