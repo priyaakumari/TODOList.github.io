@@ -43,7 +43,7 @@ nav h2{
 #box{
   
     margin: auto;
-    height:100%;
+    min-height:500px;
     width: 60vw;
     border: 2px solid rgb(66, 43, 66);
     margin-top: 10px;
